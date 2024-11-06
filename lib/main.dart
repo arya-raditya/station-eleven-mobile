@@ -8,15 +8,15 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        primaryColor: customColor[700], // Gunakan shade700 sebagai primaryColor langsung
+        primaryColor: customColor[700], 
         colorScheme: ColorScheme.fromSwatch(
-          primarySwatch: customColor, // Gunakan keseluruhan MaterialColor untuk primarySwatch
+          primarySwatch: customColor, 
         ).copyWith(
           secondary: customColor[900],
 
