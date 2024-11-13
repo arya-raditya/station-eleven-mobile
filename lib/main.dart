@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:station_eleven_m/menu.dart';
+import 'package:station_eleven_m/screens/menu.dart';
 
 void main() {
   runApp(const MyApp());
@@ -26,6 +26,7 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
 
 MaterialColor customColor = MaterialColor(
   0xFF42A5F5, // Primary color value
